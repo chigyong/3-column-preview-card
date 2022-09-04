@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow: hidden;
+  margin: 10rem;
+}
+.info h2 {
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  color: hsl(0deg, 0%, 95%);
+  margin: 1.5rem 2rem;
+  font-size: 2rem;
+}
+.info p {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-size: 15px;
+  margin: 2rem 2rem;
+}
+.info img {
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+.info button {
+  padding: 10px 25px;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  border-radius: 20px;
+  border-style: groove;
+  border-color: hsl(0deg, 0%, 95%);
+  color: hsla(0deg, 0%, 100%, 0.75);
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  transition: 0.5s ease-in-out;
+}
+.info .btn1 {
+  background-color: white;
+  color: hsl(31deg, 77%, 52%);
+}
+.info .btn1:hover {
+  background-color: transparent;
+  color: white;
+}
+.info .btn2 {
+  background-color: white;
+  color: hsl(184deg, 100%, 22%);
+}
+.info .btn2:hover {
+  background-color: transparent;
+  color: white;
+}
+.info .btn3 {
+  background-color: white;
+  color: hsl(179deg, 100%, 13%);
+}
+.info .btn3:hover {
+  background-color: transparent;
+  color: white;
+}
+.info .sedans {
+  border-style: none;
+  background-color: hsl(31deg, 77%, 52%);
+  height: 460px;
+  font-size: 15px;
+}
+.info .suvs {
+  border-style: none;
+  background-color: hsl(184deg, 100%, 22%);
+  height: 460px;
+  font-size: 15px;
+}
+.info .luxury {
+  border-style: none;
+  background-color: hsl(179deg, 100%, 13%);
+  height: 460px;
+  font-size: 15px;
+}
+
+.author {
+  text-align: center;
+}
+.author p {
+  color: black;
+}
+.author span {
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .info {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .info {
+    margin: 1rem;
+  }
+}/*# sourceMappingURL=main.css.map */

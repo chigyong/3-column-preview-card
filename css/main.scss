@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    .info {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        overflow: hidden;
+        margin: 10rem;
+    
+        h2 {
+            font-family: "Big Shoulders Display";
+            font-weight: 700;
+            color: hsl(0, 0%, 95%);
+            margin: 1.5rem 2rem;
+            font-size: 2rem;
+        }
+        p {
+            font-family: "Lexend Deca";
+            font-weight: 400;
+            color: hsla(0, 0%, 100%, 0.75);
+            font-size: 15px;
+            margin: 2rem 2rem;
+        }
+        img {
+            margin-top: 3rem;
+            margin-left: 3rem;
+        }
+        
+        button {
+            padding: 10px 25px;
+            margin-left: 3rem;
+            margin-top: 2rem;
+            border-radius: 20px;
+            border-style: groove;
+            border-color:hsl(0, 0%, 95%);
+            color: hsla(0, 0%, 100%, 0.75);
+            background-color: transparent;
+            cursor: pointer;
+            font-size: 15px;
+            font-family: "Lexend Deca";
+            transition: .5s ease-in-out;
+        }
+        
+        .btn1 {
+            background-color: white;
+            color: hsl(31, 77%, 52%);
+        }
+        .btn1:hover {
+            background-color: transparent;
+            color: white;
+        }
+        .btn2 {
+            background-color: white;
+            color: hsl(184, 100%, 22%);
+        }
+        .btn2:hover {
+            background-color: transparent;
+            color: white;
+        }
+        .btn3 {
+            background-color: white;
+            color:  hsl(179, 100%, 13%);
+        }
+        .btn3:hover {
+            background-color: transparent;
+            color: white;
+        }
+        
+        .sedans {
+            border-style: none;
+            background-color: hsl(31, 77%, 52%);
+            height: 460px;
+            font-size: 15px;
+            
+        }
+        .suvs {
+            border-style: none;
+            background-color: hsl(184, 100%, 22%);
+            height: 460px;
+            font-size: 15px;
+            
+        }
+        .luxury {
+            border-style: none;
+            background-color: hsl(179, 100%, 13%);
+            height: 460px;
+            font-size: 15px;
+        }
+    }
+.author {
+    text-align: center;
+    p {
+        color: black;
+    }
+    span {
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+   .info {
+    grid-template-columns: 1fr;
+   }
+}
+
+@media only screen and (max-width: 425px) {
+    .info {
+     margin: 1rem;
+    }
+ }
